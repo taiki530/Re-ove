@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: "Assets/\u95A2\u53E3/title.unity"
+    guid: fea70ec7b16016e4497d5701e2020e28
+  - enabled: 1
+    path: "Assets/\u95A2\u53E3/result.unity"
+    guid: 2cb3ca37a66a317438590a43e311a441
+  - enabled: 1
+    path: "Assets/\u5C0F\u6FA4/Scene/LoadingScene.unity"
+    guid: 8db73f182fed28c419ce557c27a92775
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 4e971c2e04f2e0c4c9314b4b1f56cbeb
+  - enabled: 1
+    path: Assets/Scenes/Stage1-2.unity
+    guid: 1082c8021189f7f4b9180634d021d37d
+  - enabled: 0
+    path: "Assets/\u5742\u672C/Stage/HiroiStage.unity"
+    guid: c78cdd9eb77898b47bdba4d3cf8b4bea
+  m_configObjects: {}

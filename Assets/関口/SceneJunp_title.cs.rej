@@ -1,0 +1,37 @@
+diff a/Assets/関口/SceneJunp_title.cs b/Assets/関口/SceneJunp_title.cs	(rejected hunks)
+@@ -5,16 +5,35 @@
+ 
+ public class Title : MonoBehaviour
+ {
++
++    Update_title update_Title;
++    public GameObject updateTitle;
+     // Start is called before the first frame update
+     void Start()
+     {
++        update_Title = updateTitle.GetComponent<Update_title>();
+     }
+ 
+     // Update is called once per frame
+     void Update()
+     {
++        //�X�y�[�X�L�[�̎擾
++        if (Input.GetKeyDown(KeyCode.Space)) 
++        {
++            Debug.Log("�X�^�[�g�L�[���m");
++            Invoke(nameof(jump_Scene), 2.0f);
++            update_Title.start();
++            
++        }
++        //�R���g���[���[�̃{�^��
++        /*else if (Input.GetButtonDown())
++        {
++            jump_Scene();
++        }*/
+     }
+ 
++
++
+     public void jump_Scene()
+     {
+         SceneManager.LoadScene("HiroiStage");

@@ -1,0 +1,9 @@
+diff a/Assets/関口/title.unity b/Assets/関口/title.unity	(rejected hunks)
+@@ -237,6 +237,7 @@
+   m_Component:
+   - component: {fileID: 816891147}
+   - component: {fileID: 816891146}
++  - component: {fileID: 816891148}
+   m_Layer: 0
+   m_Name: Directional Light
+   m_TagString: Untagged
